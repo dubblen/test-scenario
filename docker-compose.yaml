@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  server:
+    tty: true
+    build: ./containers/server
+    ports:
+      - "2222:22"
